@@ -1,0 +1,59 @@
+body {
+    background-color: #3B4013;/*background-color serve per definire il colore esterno della pagina in questo caso*/
+    display: flex;/*mette i caratteri in riga*/
+    justify-content: center;/*giustifica il contenuto al centro*/
+    
+}
+
+.contenitore{
+    background-color: rgb(198, 198, 198);
+    border-radius: 15px;/*crea un bordo arrotonsato al contenitore*/
+    width: 70%;/*fornisce la larghezza di un elemento*/
+    justify-content: center;
+}
+h1{
+    text-align: center;/*alinea il testo al centro*/
+}
+.contenitore_testo{
+    width: 60%;
+    padding-left: 10px;/*definisce il bordo tra il testo e il contenitore*/
+    padding-right: 10px;
+    font-size: 25px;/*la grandezza del testo*/
+}
+.contenitore_immagine{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.box{
+    display: flex;
+}
+.links{
+    text-align: center;
+    display: flex;
+    flex-direction: column;/*mette in colonna i links*/
+    font-size: 28px;
+    padding: 40px;
+}
+.links > a{
+    color: black;
+    background-color: rgb(177, 242, 14);
+    border-radius: 50px;
+    margin-top: 10px;
+    text-decoration: none;/*a tolto la decorazione dei link*/
+}
+a:hover{
+    color: red;/*definiscde il colore interno*/
+}
+.rinizio{
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    padding: 20px;
+}
+.rinizio > a{
+    color: white;
+    background-color: red;
+    border-radius: 50px;
+    margin-top: 10px;
+    text-decoration: none;
+}
